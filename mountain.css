@@ -1,0 +1,45 @@
+:root{
+    --background-color: #394a6d;
+    --border-color: #d9eeec;
+}
+body{
+    background-color: var(--background-color);
+}
+
+.main-container{
+    background-color: var(--background-color);
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: 5px solid var(--border-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    color: var(--border-color);
+    font-family: 'Mansalva', cursive;
+    font-size: 30px;
+}
+img{
+    position: absolute;
+}
+
+.mountain{
+    bottom: 20%;
+    left: 10%;
+}
+.text{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+.cloud1{
+    left: 17%;
+    top: 25%;
+}
+.cloud2{
+    left: 46%;
+    top: 12%;
+}
+.cloud3{
+    left: 67%;
+    top: 40%;
+}
